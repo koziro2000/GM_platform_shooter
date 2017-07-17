@@ -8,8 +8,8 @@ dir = 0;
 
 myHealth = 10;
 
-var gunInst = instance_create_depth(x, y, 0, obj_gun);
-gunInst.owner = id;
+//var gunInst = instance_create_depth(x, y, 0, obj_gun);
+//gunInst.owner = id;
 
 bullet_cooldown = room_speed/4;
 alarm[0] = bullet_cooldown;
