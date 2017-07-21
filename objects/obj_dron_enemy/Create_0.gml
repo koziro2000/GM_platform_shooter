@@ -7,6 +7,10 @@ moveSpeed = 1;
 eHealth = 4;
 bullet_speed = 5;
 
+attack_range = 60;
+
+damage_push = 5;
+
 bullet_cooldown = room_speed /2;
 alarm[0]=bullet_cooldown;
 

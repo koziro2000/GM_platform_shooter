@@ -1,21 +1,28 @@
-key_fire = 0;
+key_fire = keyboard_check_pressed(ord("Z"));
 
-if (instance_exists(obj_player)) 
+if (instance_exists(obj_player))
 { 	
-	image_xscale = obj_player.image_xscale;
-	
-	move_towards_point (obj_player.x + (image_xscale * 20) ,obj_player.y - 20,2);
+	image_xscale = obj_player.image_xscale;	
+	x = obj_player.x + (5 * obj_player.image_xscale);
+	y = obj_player.y + 5;
 }
 
 //key_fire = keyboard_check_pressed(ord("Z"));
-if ((key_fire) && (alarm[0] <= 0))
+shoot_cooldown = max(0, shoot_cooldown -1);
+recoil = max(0, recoil-1);
+var recoil_direction = point_direction(obj_player.x, obj_player.y, x, y);
+
+if (key_fire) && (shoot_cooldown == 0)
 {
-	var inst;
-	inst = instance_create_layer(x, y, "Bullets", obj_bullet);
-	with (inst)
+	shoot_cooldown = 5;
+	recoil = 5;
+	with (instance_create_layer(x + (image_xscale * 10), y, "Bullets", obj_bullet))
 	{
-	   speed = other.shoot_speed * other.image_xscale;
+	   speed = other.shoot_speed * other.image_xscale;	   
 	}
-	alarm[0] = bullet_cooldown;
+	
+	
 }
+
+x = x - lengthdir_x(recoil, recoil_direction);
 

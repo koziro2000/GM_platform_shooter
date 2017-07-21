@@ -86,15 +86,42 @@
         "72e3ff44-aa83-4012-9cb0-246ce3790a0e",
         "c24348b9-6854-4f89-82e6-54b8e173ee8b",
         "5beef7ef-462f-408b-b500-2a61ea2a2b46",
-        "b66c7477-8c7e-4e7e-a7a0-2aa5fb3e2e17"
+        "b66c7477-8c7e-4e7e-a7a0-2aa5fb3e2e17",
+        "cb4d173d-3ce8-485b-a000-58e7de5cf437"
     ],
     "layers": [
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "id": "847328fd-7954-4d8e-a496-9fa0d6459b4a",
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "depth": 0,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+                
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "name": "Bullets",
+            "userdefined_depth": false,
+            "visible": true,
+            "instances": [
+                
+            ]
+        },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "id": "138d4dd2-1fcd-45d0-9fb5-8ede227e7047",
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
-            "depth": 0,
+            "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -135,6 +162,30 @@
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
+                },
+                {
+                    "id": "cb4d173d-3ce8-485b-a000-58e7de5cf437",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_5CB81615",
+                    "x": 128,
+                    "y": 256,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_5CB81615",
+                    "objId": "bb743393-8f3c-4418-aae0-3e695066ddef",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
         },
@@ -143,7 +194,7 @@
             "id": "eadf2678-6a44-473f-865b-2fab5172f3c0",
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -185,32 +236,6 @@
                     "scaleX": 1,
                     "scaleY": 1
                 }
-            ]
-        },
-        {
-            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "id": "847328fd-7954-4d8e-a496-9fa0d6459b4a",
-            "modelName": "GMRInstanceLayer",
-            "mvc": "1.0",
-            "depth": 200,
-            "grid_x": 32,
-            "grid_y": 32,
-            "hierarchyFrozen": false,
-            "hierarchyVisible": true,
-            "inheritLayerDepth": false,
-            "inheritLayerSettings": false,
-            "inheritSubLayers": false,
-            "inheritVisibility": false,
-            "layers": [
-                
-            ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
-            "m_serialiseFrozen": false,
-            "name": "Bullets",
-            "userdefined_depth": false,
-            "visible": true,
-            "instances": [
-                
             ]
         },
         {

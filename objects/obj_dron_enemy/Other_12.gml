@@ -1,8 +1,16 @@
 /// @description HIT state
 moveObj();
 
-var dir = point_direction(x, y, obj_player.x, obj_player.y);
-hsp = lengthdir_x(0.1, dir);
-vsp = lengthdir_y(0.1, dir);
+damage_push = max(0, damage_push -1);
 
-state_ = MOVEMENT_;
+if (damage_push > 0)
+{
+	var dir = point_direction(obj_player.x, obj_player.y, x, y);
+	hsp = lengthdir_x(damage_push, dir);
+	vsp = lengthdir_y(damage_push, dir);
+}
+else
+{
+	state_ = MOVEMENT_;
+	damage_push = 5;
+}
