@@ -1,0 +1,1 @@
+numberOfEnemies = 1;
