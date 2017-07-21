@@ -6,8 +6,5 @@ shoot_speed = 5;
 shoot_speed_duration = 10;
 dir = 0;
 
-myHealth = 10;
-
-//var gunInst = instance_create_depth(x, y, 0, obj_gun);
-//gunInst.owner = id;
-
+maxHealth = 10;
+myHealth = maxHealth;

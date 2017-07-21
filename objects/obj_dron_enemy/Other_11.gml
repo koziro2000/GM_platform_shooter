@@ -12,6 +12,7 @@ if (alarm[0] <= 0)
 	{
 	   speed = other.bullet_speed * other.image_xscale;
 	   direction = bDir;
+	   image_angle = bDir;
 	}
 	alarm[0] = bullet_cooldown;
 }
