@@ -5,6 +5,10 @@ if (instance_exists(obj_player))
 	image_xscale = obj_player.image_xscale;	
 	x = obj_player.x + (5 * obj_player.image_xscale);
 	y = obj_player.y + 5;
+} 
+else
+{
+	exit;
 }
 
 //key_fire = keyboard_check_pressed(ord("Z"));

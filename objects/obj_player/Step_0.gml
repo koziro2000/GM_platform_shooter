@@ -45,5 +45,5 @@ else
 if (hsp != 0) image_xscale = sign(hsp);
 if (myHealth <= 0)
 {
-	game_restart();
+	instance_destroy();
 }
