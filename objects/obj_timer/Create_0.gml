@@ -1,3 +1,4 @@
-global.max_count_down = 5 * room_speed;
-global.count_down = global.max_count_down;
+global.max_infection = 100;
+global.infaction = 0;
+global.infaction_rate = 1000000;
 round_time = 0;

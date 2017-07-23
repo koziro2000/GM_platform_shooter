@@ -1,8 +1,8 @@
-if (global.count_down > 0)
+if (global.infaction <= global.max_infection)
 {
-	var timer = delta_time/1000000;
-	global.count_down -= timer;
-	round_time = round(global.count_down);
+	var timer = delta_time/global.infaction_rate;
+	global.infaction += timer;
+	round_time = round(global.infaction);
 }
 else
 {
