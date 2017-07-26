@@ -15,4 +15,5 @@ if (alarm[0] <= 0)
 	   image_angle = bDir;
 	}
 	alarm[0] = bullet_cooldown;
+	audio_play_sound(snd_laser, 11, false);
 }

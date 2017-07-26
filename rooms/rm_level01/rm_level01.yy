@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "name": "rm_level01",
     "IsDnD": false,
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

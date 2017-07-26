@@ -24,8 +24,7 @@ if (key_fire) && (shoot_cooldown == 0)
 	{
 	   speed = other.shoot_speed * other.image_xscale;	   
 	}
-	
-	
+	audio_play_sound(snd_laser, 10, false);
 }
 
 x = x - lengthdir_x(recoil, recoil_direction);
