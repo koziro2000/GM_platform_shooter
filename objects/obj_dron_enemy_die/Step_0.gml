@@ -1,0 +1,1 @@
+play_sound(snd_explosion, 3, false);

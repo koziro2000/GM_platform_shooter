@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1b017793-9c8e-4fbe-9da7-26d9001b6615",
+            "Value": {
+                "id": "3d51d20e-e99b-43e2-a34e-b22dc873b4ae",
+                "resourcePath": "objects\\obj_dron_enemy_die\\obj_dron_enemy_die.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1d9b79d9-5749-42c3-a884-7b4ed5c65287",
             "Value": {
                 "id": "7dee4baf-33cb-41ba-b556-bce5d319ef64",
@@ -212,6 +220,14 @@
                 "id": "de9c560b-e1e1-4381-b1c8-c74ca13884f4",
                 "resourcePath": "objects\\obj_enemyspawn\\obj_enemyspawn.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "50078517-0aea-4f05-b406-a6935f2677b5",
+            "Value": {
+                "id": "8d145539-7cba-4052-b3fb-43d44254404b",
+                "resourcePath": "sounds\\snd_explosion\\snd_explosion.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -423,6 +439,14 @@
             }
         },
         {
+            "Key": "b9e45ce2-12f1-4d2c-9ec5-a2bdf77c142f",
+            "Value": {
+                "id": "700b5813-ae99-4260-810c-ddb9073f35e4",
+                "resourcePath": "scripts\\play_sound\\play_sound.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "baae8099-a28b-472c-a5c7-5cd79a9b8b86",
             "Value": {
                 "id": "1a6d006e-026e-4b39-8886-bdb80b1d2f47",
@@ -559,6 +583,14 @@
             }
         },
         {
+            "Key": "f298ffbd-02eb-41ce-95d6-e29a6caf1ef9",
+            "Value": {
+                "id": "57a2d989-30da-4ea8-bc7b-1660120d7f32",
+                "resourcePath": "sprites\\spr_dron_enemy_die\\spr_dron_enemy_die.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "001a7185-6bcf-485b-b3fc-1ede30cd8709",
@@ -594,7 +626,8 @@
     "script_order": [
         "b76cb423-bf91-4961-98c0-ea30a1cea6e8",
         "007a2f20-b598-4f17-9c4a-97f1589b8454",
-        "535a89ef-f101-4bce-8f25-d19553a53026"
+        "535a89ef-f101-4bce-8f25-d19553a53026",
+        "b9e45ce2-12f1-4d2c-9ec5-a2bdf77c142f"
     ],
     "tutorial": ""
 }
