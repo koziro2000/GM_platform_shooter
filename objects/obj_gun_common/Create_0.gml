@@ -1,7 +1,7 @@
 shoot_speed = 10;
 shoot_cooldown = 0;
 recoil = 0;
-number_of_bullets_per_shot = 0;
+number_of_bullets_per_shot = 1;
 max_number_of_bullets_per_shot = 1;
 follow_player = false;
 if(instance_exists(obj_player))

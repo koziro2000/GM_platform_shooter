@@ -50,8 +50,6 @@ if (key_down)
 		var gunId = instance_place(x, y, obj_gun_common);
 		if(gunId > 0)
 		{
-			show_debug_message("gunId is " + string(gunId));
-			show_debug_message("myCurrentGunId is " + string(myCurrentGunId));
 			myCurrentGunId = gunId;
 			gunId.state = obj_gun_common.states.owned;
 		}
