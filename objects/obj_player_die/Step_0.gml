@@ -1,4 +1,4 @@
-key_escape = keyboard_check(vk_escape);
+scr_get_user_input();
 if (!instance_exists(obj_player))
 {
 	if (key_escape)

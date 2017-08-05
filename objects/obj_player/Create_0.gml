@@ -8,3 +8,4 @@ dir = 0;
 
 maxHealth = 10;
 myHealth = maxHealth;
+myCurrentGunId = -1;

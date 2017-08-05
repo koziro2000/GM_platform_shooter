@@ -1,0 +1,30 @@
+{
+    "id": "059ea677-2a47-402b-b66f-baf7ec5150cc",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "059ea677-2a47-402b-b66f-baf7ec5150cc",
+    "children": [
+        "bc34e5c1-fa39-44e0-a11b-18aab0fa75d2",
+        "9d66e55d-9cf6-43fb-ae13-c56dee58757b",
+        "4a1159e7-fb8a-4ed7-8de5-cc11f53f9039",
+        "42ef5fe3-06a1-44d5-8be8-28213883dea3",
+        "9688ae96-8f77-48ed-a18f-8ab22419ac4e",
+        "e7f6b584-6ab3-45b4-aec5-37b4b54c927d",
+        "653d99cc-9ba2-4428-a9c6-8b9cd8617375",
+        "abc049fa-c1a8-4921-9c28-f7dfe101bb63",
+        "9910dd02-668f-482a-b4e9-2ea7398c9411",
+        "929d34ca-4a68-4340-b1a5-c9f5e9ee0a3c",
+        "b54ed94f-c7f1-45a6-9b46-cb67a8696dc5",
+        "24b91544-37f8-47b2-9a51-159a6c5f162d",
+        "4803fee1-6534-4dd6-8500-56087ed7e83f",
+        "2e9c924d-fa3f-412e-bc96-065ab9872a65",
+        "c3c97b1e-a9f2-4576-85f0-64833992431a",
+        "687e235d-c8c4-416e-86d5-3ca32a602119",
+        "dca9175f-2e71-431a-986c-2d0ff2c6540b",
+        "7d107263-7d9a-42d0-90be-a2c30310ca54"
+    ],
+    "filterType": "GMSprite",
+    "folderName": "tilesets",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

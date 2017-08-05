@@ -1,18 +1,13 @@
-// Get player input
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(vk_up);
+scr_get_user_input();
 
 // determine the direction: 1, 0, -1
 var move = key_right - key_left;
 hsp = move * walksp;
 vsp += grv;
-
 if (place_meeting(x, y+1, obj_wall) && key_jump)
 {
 	vsp = -7;
 }
-
 moveObj();
 
 //Animatin
@@ -46,4 +41,28 @@ if (hsp != 0) image_xscale = sign(hsp);
 if (myHealth <= 0)
 {
 	instance_destroy();
+}
+
+if (key_down)
+{
+	if (myCurrentGunId < 0)
+	{
+		var gunId = instance_place(x, y, obj_gun_common);
+		if(gunId > 0)
+		{
+			show_debug_message("gunId is " + string(gunId));
+			show_debug_message("myCurrentGunId is " + string(myCurrentGunId));
+			myCurrentGunId = gunId;
+			gunId.state = obj_gun_common.states.owned;
+		}
+	}
+	
+}
+if (key_throw)
+{
+	if (myCurrentGunId > 0)
+	{
+		myCurrentGunId.state = obj_gun_common.states.normal;
+		myCurrentGunId = -1;
+	}
 }
