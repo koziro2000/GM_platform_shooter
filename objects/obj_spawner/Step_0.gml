@@ -8,7 +8,7 @@ if (!instance_exists(obj_dron_enemy))
 	numberOfEnemies *= 2;
 }
 
-if (numberOfEnemies >= 10)
+if (numberOfEnemies >= maxNumberOfEnemies)
 {
 	if (room == room_last)
 	{

@@ -1,4 +1,4 @@
 /// @description Take Damage
-eHealth -= 1;
+eHealth -= other.damage;
 instance_destroy(other);
 state_ = HIT_;

@@ -4,6 +4,8 @@ recoil = 0;
 number_of_bullets_per_shot = 1;
 max_number_of_bullets_per_shot = 1;
 follow_player = false;
+damage = 0.5;
+
 if(instance_exists(obj_player))
 {
 	depth = obj_player.depth -1;

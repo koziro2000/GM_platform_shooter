@@ -15,6 +15,7 @@ if (key_fire) && (shoot_cooldown == 0)
 
 	with (instance_create_layer(x + (image_xscale * 10), y, "Bullets", obj_bullet))
 	{
+		damage = other.damage;
 		speed = other.shoot_speed * other.image_xscale;	   
 	}
 	play_sound(snd_laser, 1, false);
@@ -23,6 +24,7 @@ if (key_fire) && (shoot_cooldown == 0)
 	{
 		with (instance_create_layer(x + (image_xscale * 10), y, "Bullets", obj_bullet))
 		{
+			damage = other.damage;
 			speed = other.shoot_speed * other.image_xscale;	   
 			direction = random_range(10, 15);
 		}
@@ -30,6 +32,7 @@ if (key_fire) && (shoot_cooldown == 0)
 
 		with (instance_create_layer(x + (image_xscale * 10), y, "Bullets", obj_bullet))
 		{
+			damage = other.damage;	
 			speed = other.shoot_speed * other.image_xscale;	   
 			direction = random_range(360-10, 360 - 15);
 		}

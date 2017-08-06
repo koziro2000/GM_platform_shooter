@@ -6,6 +6,6 @@ shoot_speed = 5;
 shoot_speed_duration = 10;
 dir = 0;
 
-maxHealth = 10;
+maxHealth = 10 * 10000000;
 myHealth = maxHealth;
 myCurrentGunId = -1;
