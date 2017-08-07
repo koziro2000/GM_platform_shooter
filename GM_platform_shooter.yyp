@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "e6cebb02-909b-4ba4-9fa4-caad61bf0f03",
+            "Value": {
+                "id": "d1931a98-7666-4c1d-bd7e-0c1c203e23eb",
+                "resourcePath": "sprites\\spr_enemyTriBossAttack\\spr_enemyTriBossAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "eb21b28a-f207-4898-a1e9-1b887ea6fa7c",
             "Value": {
                 "id": "fa1a4e90-29c8-45cc-8342-4f291ca2617c",

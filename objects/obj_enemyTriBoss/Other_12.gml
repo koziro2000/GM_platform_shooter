@@ -5,6 +5,8 @@ if (distance_to_object(obj_player) >= attack_range)
 	state_ = triBossStates.walk_;
 }
 
+sprite_index = spr_enemyTriBossAttack;
+
 if (alarm[0] <= 0)
 {
 	var fireOriginY = y - sprite_height/3;
