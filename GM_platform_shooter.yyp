@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "34f06f40-85a7-42af-8903-4b0559d08bfd",
+            "Value": {
+                "id": "e61d7529-3281-4527-9e78-fbccb885ff8e",
+                "resourcePath": "objects\\obj_boss\\obj_boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "35015440-a4c8-499f-96fb-c822be0fc169",
             "Value": {
                 "id": "b2f1438d-9594-42f3-8889-8e197b7648b1",
@@ -282,7 +290,7 @@
             "Key": "5c2d994d-c1c4-4621-ba88-7e6f8a6713b6",
             "Value": {
                 "id": "dff260a0-5e3c-465f-b212-b15ad0f51d39",
-                "resourcePath": "sprites\\spr_enemyTriBoss\\spr_enemyTriBoss.yy",
+                "resourcePath": "sprites\\spr_enemyTriBossAttack\\spr_enemyTriBossAttack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -599,6 +607,14 @@
             }
         },
         {
+            "Key": "c533648e-26db-446f-a8cf-07b381d356eb",
+            "Value": {
+                "id": "08be00aa-89ec-4971-9fac-6d0f313696e2",
+                "resourcePath": "objects\\obj_shake_view\\obj_shake_view.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c7749fe6-ee95-42f6-8861-df211e2ddeea",
             "Value": {
                 "id": "72565a9f-9346-4709-bd7e-c13d8b33ed5e",
@@ -690,7 +706,7 @@
             "Key": "e6cebb02-909b-4ba4-9fa4-caad61bf0f03",
             "Value": {
                 "id": "d1931a98-7666-4c1d-bd7e-0c1c203e23eb",
-                "resourcePath": "sprites\\spr_enemyTriBossAttack\\spr_enemyTriBossAttack.yy",
+                "resourcePath": "sprites\\spr_enemyTriBossIdle\\spr_enemyTriBossIdle.yy",
                 "resourceType": "GMSprite"
             }
         },

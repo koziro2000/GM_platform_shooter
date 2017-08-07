@@ -1,2 +1,2 @@
 numberOfEnemies = 1;
-maxNumberOfEnemies = 52;
+maxNumberOfEnemies = 3;

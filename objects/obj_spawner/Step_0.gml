@@ -5,17 +5,14 @@ if (!instance_exists(obj_dron_enemy))
 	{
 		instance_create_layer(x, y, "Enemies", obj_dron_enemy);
 	}
-	numberOfEnemies *= 2;
+	if (numberOfEnemies < maxNumberOfEnemies)
+	{
+		numberOfEnemies *= 2;
+	}
 }
 
-if (numberOfEnemies >= maxNumberOfEnemies)
+if (instance_exists(obj_boss))
 {
-	if (room == room_last)
-	{
-		game_restart();
-	}
-	else
-	{
-		room_goto_next();
-	}
+	x = obj_boss.x;
+	y = obj_boss.y - obj_boss.sprite_height / 2;
 }
