@@ -46,7 +46,7 @@ if (alarm[0] <= 0)
 	}
 }
 
-if (alarm[1] > 0)
+if (alarm[1] > 0 && false)
 {
 	image_blend = make_colour_hsv(255, 255, random(255));
 }
