@@ -20,4 +20,6 @@ if (place_meeting(x, y+vsp, obj_wall))
 	vsp = 0;
 }
 
+
+
 y += vsp;

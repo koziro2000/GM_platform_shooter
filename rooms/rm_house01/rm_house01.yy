@@ -18,7 +18,9 @@
         "aa15cb6b-19c6-4570-b931-b9d80540a9ab",
         "ba3f02cd-611b-47b4-ae2b-76490541b392",
         "75879922-4461-4e87-8f07-ca469b815b22",
-        "10c776cf-d78e-48d2-a53c-f5699e86d45b"
+        "10c776cf-d78e-48d2-a53c-f5699e86d45b",
+        "1c4f8825-9912-4fd4-90af-0a54aac672af",
+        "2bcf0f4a-1939-4c6b-9030-26e349b0f1d9"
     ],
     "layers": [
         {
@@ -96,7 +98,30 @@
             "userdefined_depth": false,
             "visible": true,
             "instances": [
-                
+                {
+                    "id": "2bcf0f4a-1939-4c6b-9030-26e349b0f1d9",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_7384890E",
+                    "x": 192,
+                    "y": 256,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_7384890E",
+                    "objId": "17c3e8b9-f661-4dea-83ab-6a8d9fdbf24c",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                }
             ]
         },
         {
@@ -166,6 +191,30 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_755119F7",
                     "objId": "71e29f58-38b6-4414-93a7-d735b66875a9",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "1c4f8825-9912-4fd4-90af-0a54aac672af",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_557D8EE6",
+                    "x": 552,
+                    "y": 328,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_557D8EE6",
+                    "objId": "316f272b-f0a6-4829-a514-bfd8f2ba8c8d",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
@@ -3268,13 +3317,50 @@
             ],
             "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
-            "name": "Background",
+            "name": "background_near",
             "userdefined_depth": false,
             "visible": true,
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4281544500
+                "Value": 4284900966
+            },
+            "hspeed": 0,
+            "htiled": true,
+            "spriteId": "8eb2875c-f9ec-47ea-b475-9167cedf5959",
+            "stretch": false,
+            "userdefined_animFPS": false,
+            "vspeed": 0,
+            "vtiled": true,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
+            "id": "e8f3db21-c2ea-4ae4-8a3e-8a2704d76922",
+            "modelName": "GMRBackgroundLayer",
+            "mvc": "1.0",
+            "depth": 700,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+                
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "name": "background_far",
+            "userdefined_depth": false,
+            "visible": true,
+            "animationFPS": 15,
+            "animationSpeedType": 0,
+            "colour": {
+                "Value": 4285361517
             },
             "hspeed": 0,
             "htiled": false,

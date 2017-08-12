@@ -1,5 +1,5 @@
 /// @description Attack State
-if (distance_to_object(obj_player) >= attack_range)
+if (distance_to_object(obj_player) > attack_range)
 {
 	state_ = triBossStates.walk_;
 	exit;
