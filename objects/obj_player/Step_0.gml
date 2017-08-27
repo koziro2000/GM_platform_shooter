@@ -13,7 +13,7 @@ moveObj();
 //Animatin
 if (!place_meeting(x, y+1, obj_wall))
 {
-	sprite_index = spr_player_jump;
+	sprite_index = spr_fighter_jump;
 	image_speed = 0;
 	if (sign(vsp)>0)
 	{
@@ -29,11 +29,11 @@ else
 	image_speed = 1;
 	if (hsp == 0)
 	{
-		sprite_index = spr_player;
+		sprite_index = spr_fighter_idle;
 	}
 	else
 	{
-		sprite_index = spr_player_run;
+		sprite_index = spr_fighter_walk;
 	}
 }
 

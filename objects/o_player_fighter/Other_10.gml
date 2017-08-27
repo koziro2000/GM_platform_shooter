@@ -1,1 +1,1 @@
-sprite_index = spr_player_idle;
+sprite_index = spr_fighter_idle;
